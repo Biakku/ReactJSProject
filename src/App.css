@@ -1,0 +1,46 @@
+body {
+  background:url(bg4.jpg);
+  background-size: cover;
+}
+input[type=text]{
+    opacity: 1;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#menu {
+  top: 5%;
+  height: 65px;
+  background:rgba(255,255,255,0.6);
+  border-radius: 15px;
+
+}
+#all {
+  width: 100%;
+  border-collapse: collapse;
+}
+#all>td {
+  vertical-align: top;
+  text-align: center;
+  position: relative;
+}
+#all>td#left, #all>td#right {
+  text-align: left;
+}
+#center {
+  height: 530px;
+  padding: 10px;
+  background:rgba(255,255,255,0.4);
+  border-radius: 15px;
+}
+#bottom {
+  height:20px;
+  background:url(bottom.jpg);
+}
+#randomProjectText {
+  text-align: center;
+}
